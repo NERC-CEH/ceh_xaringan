@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>R Xaringan Package Slide Deck</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Florian Oswald" />
+    <meta name="author" content="Peter Levy" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/5235085b15.js"></script>
     <link rel="stylesheet" href="scpo.css" type="text/css" />
@@ -13,10 +14,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # <code>R</code> Xaringan Package Slide Deck
-## ScPo template
-### Florian Oswald
-### SciencesPo Paris </br> 2019-08-18
+]
+.subtitle[
+## UKCEH template
+]
+.author[
+### Peter Levy
+]
+.date[
+### UKCEH Edinburgh </br> 2023-09-03
+]
 
 ---
 
@@ -47,7 +56,7 @@ Second Image test. Taken from google.
 
 layout: true
   
-&lt;div class="my-footer"&gt;&lt;img src="./img/logo/ScPo-shield.png" style="height: 60px;"/&gt;&lt;/div&gt; 
+&lt;div class="my-footer"&gt;&lt;img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/&gt;&lt;/div&gt; 
 
 ---
 
@@ -57,10 +66,10 @@ layout: true
 [jvcasillas](https://github.com/jvcasillas/ru_xaringan) template for Rutgers University.
 
 - I changed some small things in the CSS.
-    1. Used SciencesPo Logos
-    1. Added a ScPo logo in the footer of standard slides.
+    1. Used UKCEH Logos
+    1. Added a UKCEH logo in the footer of standard slides.
     
-- The template is now here: https://github.com/ScPoEcon/scpo_xaringan. Visit to check out instructions.
+- The template is now here: https://github.com/NERC-CEH/ceh_xaringan. Visit to check out instructions.
 
 ---
 
@@ -271,10 +280,10 @@ class: center, bottom, inverse
 
 layout: true
   
-&lt;div class="my-footer"&gt;&lt;img src="./img/logo/ScPo-shield.png" style="height: 60px;"/&gt;&lt;/div&gt; 
+&lt;div class="my-footer"&gt;&lt;img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/&gt;&lt;/div&gt; 
 
 ---
-background-image: url("./img/logo/ScPo-econ.png")
+background-image: url("./img/logo/UKCEH-Logo_Long_Positive_RGB.png")
 background-position: 90% 50%
 background-size: 300pt
 
@@ -341,7 +350,7 @@ To really make text stand out we can just use \*\*text\*\* like **this**.
 
 layout: true
   
-&lt;div class="my-footer"&gt;&lt;img src="./img/logo/ScPo-shield.png" style="height: 60px;"/&gt;&lt;/div&gt; 
+&lt;div class="my-footer"&gt;&lt;img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/&gt;&lt;/div&gt; 
 
 
 ---
@@ -425,7 +434,7 @@ It is valid R code so you can run it.
 
 ---
 class: middle, bottom
-background-image: url(./img/logo/ScPo-shield.png)
+background-image: url(./img/logo/UKCEH-Logo_Short_Positive_RGB.png)
 background-size: contain
 
 ### &lt;grey&gt;You can&lt;/grey&gt;  
@@ -450,20 +459,20 @@ remark.macros.scale = function (percentage) {
 - ...we can use the markdown call to resize images...
 
 ```md
-![:scale 25%](./img/logo/ScPo-econ.png)
+![:scale 25%](./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 ```
 
 - These calls can also be put inside html divs so as to control where they appear. 
 
 &lt;div align="center"&gt;
-![:scale 20%](./img/logo/ScPo-econ.png)
+![:scale 20%](./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 &lt;/div&gt;
 
 - All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
 
 ---
 
-# ScPo stuff
+# UKCEH stuff
 
 ### General
 
@@ -475,22 +484,22 @@ remark.macros.scale = function (percentage) {
 
 ### Sections
 
-- We can create section dividers with ScPo red and grey by using the `class` call:
+- We can create section dividers with UKCEH teal and green by using the `class` call:
 
 ```md
-class: title-slide-section-red
+class: title-slide-section-teal
 ```
 
 or 
 
 ```md
-class: title-slide-section-grey
+class: title-slide-section-green
 ```
 
 ---
-class: title-slide-section-red
+class: title-slide-section-teal
 
-# ScPo red section divider
+# UKCEH teal section divider
 
 ### This is the H3 font color
 
@@ -503,9 +512,9 @@ class: title-slide-section-red
 - and also .grey[grey]
 
 ---
-class: title-slide-section-grey
+class: title-slide-section-green
 
-# ScPo grey section divider
+# UKCEH green section divider
 
 ### This is the H3 font color
 
@@ -553,7 +562,7 @@ background-position: 90% 8%
 
 ---
 class: title-slide-final, middle
-background-image: url(./img/logo/ScPo-Econ.png)
+background-image: url(./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 background-size: 250px
 background-position: 9% 19%
 
@@ -567,10 +576,11 @@ Here is an example:
 
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| &lt;a href="mailto:florian.oswald@sciencespo.fr"&gt;.ScPored[&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;]               | florian.oswald@sciencespo.fr       |
-| &lt;a href="https://scpoecon.github.io/scpo_xaringan"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | slides |
-| &lt;a href="http://twitter.com/ScPoEcon"&gt;.ScPored[&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;]                          | @ScPoEcon                         |
-| &lt;a href="http://github.com/ScPoEcon"&gt;.ScPored[&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;]                          | @ScPoEcon                       |
+| &lt;a href="mailto:plevy@ceh.ac.uk"&gt;.ScPored[&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;]               | plevy@ceh.ac.uk       |
+| &lt;a href="https://github.com/NERC-CEH/ceh_xaringan"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | slides |
+| &lt;a href="http://twitter.com/UKCEH"&gt;.ScPored[&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;]                          | @UKCEH                         |
+| &lt;a href="http://github.com/NERC-CEH"&gt;.ScPored[&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;]                          | @NERC-CEH                       |
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -619,9 +629,38 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -630,7 +669,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

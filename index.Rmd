@@ -1,8 +1,8 @@
 ---
 title: "`R` Xaringan Package Slide Deck"
-subtitle: "ScPo template"
-author: "Florian Oswald"
-date: "SciencesPo Paris </br> `r Sys.Date()`"
+subtitle: "UKCEH template"
+author: "Peter Levy"
+date: "UKCEH Edinburgh </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -45,7 +45,7 @@ Second Image test. Taken from google.
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/></div> 
 
 ---
 
@@ -55,10 +55,10 @@ layout: true
 [jvcasillas](https://github.com/jvcasillas/ru_xaringan) template for Rutgers University.
 
 - I changed some small things in the CSS.
-    1. Used SciencesPo Logos
-    1. Added a ScPo logo in the footer of standard slides.
+    1. Used UKCEH Logos
+    1. Added a UKCEH logo in the footer of standard slides.
     
-- The template is now here: https://github.com/ScPoEcon/scpo_xaringan. Visit to check out instructions.
+- The template is now here: https://github.com/NERC-CEH/ceh_xaringan. Visit to check out instructions.
 
 ---
 
@@ -210,10 +210,10 @@ class: center, bottom, inverse
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/></div> 
 
 ---
-background-image: url("./img/logo/ScPo-econ.png")
+background-image: url("./img/logo/UKCEH-Logo_Long_Positive_RGB.png")
 background-position: 90% 50%
 background-size: 300pt
 
@@ -280,7 +280,7 @@ To really make text stand out we can just use \*\*text\*\* like **this**.
 
 layout: true
   
-<div class="my-footer"><img src="./img/logo/ScPo-shield.png" style="height: 60px;"/></div> 
+<div class="my-footer"><img src="./img/logo/UKCEH-Logo_Short_Positive_RGB.png" style="height: 60px;"/></div> 
 
 
 ---
@@ -359,7 +359,7 @@ It is valid R code so you can run it.
 
 ---
 class: middle, bottom
-background-image: url(./img/logo/ScPo-shield.png)
+background-image: url(./img/logo/UKCEH-Logo_Short_Positive_RGB.png)
 background-size: contain
 
 ### <grey>You can</grey>  
@@ -384,20 +384,20 @@ remark.macros.scale = function (percentage) {
 - ...we can use the markdown call to resize images...
 
 ```md
-![:scale 25%](./img/logo/ScPo-econ.png)
+![:scale 25%](./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 ```
 
 - These calls can also be put inside html divs so as to control where they appear. 
 
 <div align="center">
-![:scale 20%](./img/logo/ScPo-econ.png)
+![:scale 20%](./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 </div>
 
 - All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
 
 ---
 
-# ScPo stuff
+# UKCEH stuff
 
 ### General
 
@@ -409,22 +409,22 @@ remark.macros.scale = function (percentage) {
 
 ### Sections
 
-- We can create section dividers with ScPo red and grey by using the `class` call:
+- We can create section dividers with UKCEH teal and green by using the `class` call:
 
 ```md
-class: title-slide-section-red
+class: title-slide-section-teal
 ```
 
 or 
 
 ```md
-class: title-slide-section-grey
+class: title-slide-section-green
 ```
 
 ---
-class: title-slide-section-red
+class: title-slide-section-teal
 
-# ScPo red section divider
+# UKCEH teal section divider
 
 ### This is the H3 font color
 
@@ -437,9 +437,9 @@ class: title-slide-section-red
 - and also .grey[grey]
 
 ---
-class: title-slide-section-grey
+class: title-slide-section-green
 
-# ScPo grey section divider
+# UKCEH green section divider
 
 ### This is the H3 font color
 
@@ -487,7 +487,7 @@ background-position: 90% 8%
 
 ---
 class: title-slide-final, middle
-background-image: url(./img/logo/ScPo-Econ.png)
+background-image: url(./img/logo/UKCEH-Logo_Long_Positive_RGB.png)
 background-size: 250px
 background-position: 9% 19%
 
@@ -501,8 +501,8 @@ Here is an example:
 
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:florian.oswald@sciencespo.fr">.ScPored[<i class="fa fa-paper-plane fa-fw"></i>]               | florian.oswald@sciencespo.fr       |
-| <a href="https://scpoecon.github.io/scpo_xaringan">.ScPored[<i class="fa fa-link fa-fw"></i>] | slides |
-| <a href="http://twitter.com/ScPoEcon">.ScPored[<i class="fa fa-twitter fa-fw"></i>]                          | @ScPoEcon                         |
-| <a href="http://github.com/ScPoEcon">.ScPored[<i class="fa fa-github fa-fw"></i>]                          | @ScPoEcon                       |
+| <a href="mailto:plevy@ceh.ac.uk">.ScPored[<i class="fa fa-paper-plane fa-fw"></i>]               | plevy@ceh.ac.uk       |
+| <a href="https://github.com/NERC-CEH/ceh_xaringan">.ScPored[<i class="fa fa-link fa-fw"></i>] | slides |
+| <a href="http://twitter.com/UKCEH">.ScPored[<i class="fa fa-twitter fa-fw"></i>]                          | @UKCEH                         |
+| <a href="http://github.com/NERC-CEH">.ScPored[<i class="fa fa-github fa-fw"></i>]                          | @NERC-CEH                       |
 
