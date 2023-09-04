@@ -6,7 +6,7 @@ date: "UKCEH Edinburgh </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: [default, "scpo.css", "scpo-fonts.css"]
+    css: [default, "ceh.css", "ceh-fonts.css"]
     nature:
       beforeInit: ["js/ru_xaringan.js"]
       highlightStyle: github
@@ -18,6 +18,9 @@ output:
 ---
 
 
+```{r render, eval = FALSE, include=FALSE}
+rmarkdown::render("./index.Rmd")
+```
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -501,8 +504,8 @@ Here is an example:
 
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:plevy@ceh.ac.uk">.ScPored[<i class="fa fa-paper-plane fa-fw"></i>]               | plevy@ceh.ac.uk       |
-| <a href="https://github.com/NERC-CEH/ceh_xaringan">.ScPored[<i class="fa fa-link fa-fw"></i>] | slides |
-| <a href="http://twitter.com/UKCEH">.ScPored[<i class="fa fa-twitter fa-fw"></i>]                          | @UKCEH                         |
-| <a href="http://github.com/NERC-CEH">.ScPored[<i class="fa fa-github fa-fw"></i>]                          | @NERC-CEH                       |
+| <a href="mailto:plevy@ceh.ac.uk">.cehGreen[<i class="fa fa-paper-plane fa-fw"></i>]               | plevy@ceh.ac.uk       |
+| <a href="https://github.com/NERC-CEH/ceh_xaringan">.cehGreen[<i class="fa fa-link fa-fw"></i>] | slides |
+| <a href="http://twitter.com/UKCEH">.cehGreen[<i class="fa fa-twitter fa-fw"></i>]                          | @UKCEH                         |
+| <a href="http://github.com/NERC-CEH">.cehGreen[<i class="fa fa-github fa-fw"></i>]                          | @NERC-CEH                       |
 

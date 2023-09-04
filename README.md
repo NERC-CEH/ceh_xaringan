@@ -1,4 +1,4 @@
-# scpo_xaringan
+# ceh_xaringan
 
 Minimalist `R` xaringan theme for html presentations using UKCEH style/colours.
 
@@ -26,7 +26,7 @@ date: "UKCEH </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: [default, "scpo.css", "scpo-fonts.css"]
+    css: [default, "ceh.css", "ceh-fonts.css"]
     nature:
       beforeInit: ["../js/ru_xaringan.js"]
       highlightStyle: github
@@ -37,6 +37,12 @@ output:
       in_header: "./libs/partials/header.html"
 ---
 ```
+
+## Rendering html from Rmarkdown
+Run the command
+`rmarkdown::render("./index.Rmd")`
+
+or use the knit button in Rstudio.
 
 ## Offline Usage
 
