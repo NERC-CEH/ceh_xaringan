@@ -10,7 +10,7 @@ Here is the title slide:
 
 ## Full Example Presentation
 
-Example presentation at [https://scpoecon.github.io/scpo_xaringan/]( https://scpoecon.github.io/scpo_xaringan/). 
+Example presentation at [https://nerc-ceh.github.io/ceh_xaringan]( https://nerc-ceh.github.io/ceh_xaringan/). 
 
 ## Usage
 
