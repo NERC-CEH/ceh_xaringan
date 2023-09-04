@@ -26,24 +26,6 @@ rmarkdown::render("./index.Rmd")
 options(htmltools.dir.version = FALSE)
 ```
 
-background-size: 100%
-background-image: url(https://media.giphy.com/media/94iS62lx8CRQA/giphy.gif)
-
-???
-
-Image test. Taken from google. 
-
----
-
-
-background-size: 100%
-background-image: url(https://media.giphy.com/media/J3GSVuDnnYeDEd4Nrr/giphy.gif)
-
-???
-
-Second Image test. Taken from google. 
-
-
 ---
 
 layout: true
@@ -67,9 +49,9 @@ layout: true
 
 # Maths without Beamer!
 
-## You must be kidding me.
+## Is straightforward
 
-You can write $\LaTeX$ math expressions inside a pair of dollar signs, e.g. `$\alpha+\beta$` renders $\alpha+\beta$. (No blanks after `$`!). You can use the display style with double dollar signs:
+You can write $\LaTeX$ maths expressions inside a pair of dollar signs, e.g. `$\alpha+\beta$` renders $\alpha+\beta$. (No blanks after `$`!). You can use the display style with double dollar signs:
 
 ```latex
 $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
@@ -83,7 +65,7 @@ $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
 
 ---
 
-# Multiple Lines of Math
+# Multiple Lines of Maths
 
 ```latex
 $$\begin{align}
@@ -203,11 +185,30 @@ layout: true
 <div class="my-footer"></div> 
 
 ---
-background-image: url(`r xaringan:::karl`)
+
+background-size: 100%
+background-image: url(https://imgs.xkcd.com/comics/self_description.png)
+
+???
+
+Notes go beneath the question marks. This is an image test. Taken from xkcd. 
+
+---
+
+background-size: 100%
+background-image: url(https://img.youtube.com/vi/U_85TaXbeIo/maxresdefault.jpg)
+
+???
+
+Notes go beneath the question marks. Another image test. Taken from 3blue1brown.
+
+---
+background-image: url(https://gws-access.jasmin.ac.uk/public/dare_uk/plevy/UK-AMo/plot_UK-AMo_month_files/figure-html/EB-1.png)
+background-size: 80%
 background-position: 50% 50%
 class: center, bottom, inverse
 
-# You only live once!
+# Live data
 
 ---
 
